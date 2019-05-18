@@ -1,0 +1,80 @@
+pragma solidity ^0.4.23;
+
+contract Constant {
+	bytes32 internal constant _$FM_							= "$FM";
+	bytes32 internal constant _$FM2_						= "$FM2";
+	bytes32 internal constant _$FI_							= "$FI";
+	bytes32 internal constant _$FO_							= "$FO";
+	bytes32 internal constant _$FD_							= "$FD";
+	bytes32 internal constant _$FD2_						= "$FD2";
+	bytes32 internal constant _$F_							= "$F";
+	bytes32 internal constant _$F2R_						= "$F2R";
+	bytes32 internal constant _$FR_							= "$FR";
+	
+	bytes32 internal constant _$FOD_						= "$FOD";
+	bytes32 internal constant _totalSupply_					= "totalSupply";
+	bytes32 internal constant _balanceOf_					= "balanceOf";
+	bytes32 internal constant _lastTime_					= "lastTime";
+	bytes32 internal constant _factorDrawLots_				= "factorDrawLots";
+	bytes32 internal constant _eraDrawLots_					= "eraDrawLots";
+	//bytes32 internal constant _drawLots_					= "drawLots";
+	
+	bytes32 internal constant _privatePlacing_				= "rivatePlacing";
+	bytes32 internal constant _priceInit_					= "priceInit";
+	bytes32 internal constant _softCap_						= "softCap";
+	bytes32 internal constant _ratioGiftMax_				= "ratioGiftMax";
+	bytes32 internal constant _weightOfReserve_				= "weightOfReserve";
+	bytes32 internal constant _weightOfTarget_				= "weightOfTarget";
+	bytes32 internal constant _decelerationRatioDividend_	= "decelerationRatioDividend";
+	bytes32 internal constant _ratioDividend_				= "ratioDividend";
+	bytes32 internal constant _investmentSF_				= "investmentSF";
+	bytes32 internal constant _investmentEth_				= "investmentEth";
+	bytes32 internal constant _profitSF_					= "profitSF";
+	bytes32 internal constant _profitEth_					= "profitEth";
+	bytes32 internal constant _returnSF_					= "returnSF";
+	bytes32 internal constant _returnEth_					= "returnEth";
+	bytes32 internal constant _emaDailyYieldSF_				= "emaDailyYieldSF";
+	bytes32 internal constant _emaDailyYield_				= "emaDailyYield";
+	bytes32 internal constant _timeLastMiningSF_			= "timeLastMiningSF";
+	bytes32 internal constant _timeLastMining_				= "timeLastMining";
+	bytes32 internal constant _factorMining_				= "factorMining";
+	bytes32 internal constant _projectStatus_				= "projectStatus";
+	bytes32 internal constant _projectAddr_					= "projectAddr";
+	bytes32 internal constant _projectID_					= "projectID";
+	bytes32 internal constant _disproposeID_				= "disproposeID";
+	bytes32 internal constant _projects_					= "projects";
+	bytes32 internal constant _projectsVoting_				= "projectsVoting";
+	bytes32 internal constant _thresholdPropose_			= "thresholdPropose";
+	bytes32 internal constant _thresholdVote_				= "thresholdVote";
+	bytes32 internal constant _timePropose_					= "timePropose";
+	bytes32 internal constant _votes_						= "votes";
+	bytes32 internal constant _factorDividend_				= "factorDividend";
+	bytes32 internal constant _projectIdCount_				= "projectIdCount";
+	bytes32 internal constant _projectInfo_					= "projectInfo";
+	bytes32 internal constant _recommenders_				= "recommenders";
+	bytes32 internal constant _recommendations_				= "recommendations";
+	bytes32 internal constant _rewardRecommend_				= "rewardRecommend";
+	bytes32 internal constant _halfRewardBalanceOfRecommender_ = "halfRewardBalanceOfRecommender";
+	bytes32 internal constant _channels_					= "channels";
+	bytes32 internal constant _rewardChannel_				= "rewardChannel";
+	bytes32 internal constant _rate0DrawLotsOrder_			= "rate0DrawLotsOrder";
+	bytes32 internal constant _thresholdAccelDequeueOrder_	= "thresholdAccelDequeueOrder";
+	bytes32 internal constant _periodQuotaOrder_			= "periodQuotaOrder";
+
+    //uint256 internal constant PROJECT_STATUS_PROPOSING		= uint256(bytes32("PROJECT_STATUS_PROPOSING"));
+    uint256 internal constant PROJECT_STATUS_VOTING			= uint256(bytes32("PROJECT_STATUS_VOTING"));
+    uint256 internal constant PROJECT_STATUS_FAIL			= uint256(bytes32("PROJECT_STATUS_FAIL"));
+    uint256 internal constant PROJECT_STATUS_PASS			= uint256(bytes32("PROJECT_STATUS_PASS"));
+    uint256 internal constant PROJECT_STATUS_INVESTED		= uint256(bytes32("PROJECT_STATUS_INVESTED"));
+    //uint256 internal constant PROJECT_STATUS_DISPROPOSING	= uint256(bytes32("PROJECT_STATUS_DISPROPOSING"));
+    uint256 internal constant PROJECT_STATUS_DISVOTING	    = uint256(bytes32("PROJECT_STATUS_DISVOTING"));
+    uint256 internal constant PROJECT_STATUS_DISINVESTING	= uint256(bytes32("PROJECT_STATUS_DISINVESTING"));
+    uint256 internal constant PROJECT_STATUS_DISINVESTED	= uint256(bytes32("PROJECT_STATUS_DISINVESTED"));
+    
+    //uint256 internal constant VOTE_YES                      = uint256(bytes32("VOTE_YES"));
+    //uint256 internal constant VOTE_NO                       = uint256(bytes32("VOTE_NO"));
+    //uint256 internal constant VOTE_CANCEL                   = uint256(bytes32("VOTE_CANCEL"));
+    bytes32 internal constant VOTE_YES                      = "VOTE_YES";
+    bytes32 internal constant VOTE_NO                       = "VOTE_NO";
+    bytes32 internal constant VOTE_CANCEL                   = "VOTE_CANCEL";
+}
