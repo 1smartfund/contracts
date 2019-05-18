@@ -1,1 +1,1 @@
-# contracts
+# truffle file struct
